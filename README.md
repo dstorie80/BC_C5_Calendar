@@ -11,6 +11,7 @@ This project was created for allowing practice in manipulating the dom elements
 - I was able to successfully store the current time and date and display it as part of the header.  Then use that time/date to update the dom and set the class for each div with either a past/present/future to the class
 - I was also able to practice saving data to the local store by class
 - I was able to practice retrieving data from the local store and placing the data in the correct class.
+- I was able to use the exisitn jQuery that was included for the index.js 
 
 
 ## Table of Contents 
@@ -33,25 +34,37 @@ To pull the rep files:
 
 ## Usage
 
-To access the website you will need to follow this published link - https://dstorie80.github.io/BC_C6_Forecast/
+To access the website you will need to follow this published link - [https://dstorie80.github.io/BC_C6_Forecast](https://dstorie80.github.io/BC_C5_Calendar/)/
 
-To access the latest repo you will need to follow this github rep link - (https://github.com/dstorie80/BC_C6_Forecast.git)
+To access the latest repo you will need to follow this github rep link - (git@github.com:dstorie80/BC_C5_Calendar.git)
 
-To start, you will be presented with only a 1 option.  To enter a city into text field. 
+When opening the link, you will be presented with a page that shows the name of the page along with the current time and date
+
+![image](https://github.com/dstorie80/BC_C5_Calendar/assets/149905416/8896212e-d89f-4160-99f2-376d00cd642a)
+
+At the top of the page you will see the time.  As you scroll down the page, any time before the time displayed on the page, will appear as grey showing that it has already occured
+
+![image](https://github.com/dstorie80/BC_C5_Calendar/assets/149905416/f1634125-c30d-48c4-95cb-5af1cc572675)
+
+As you get close to the time that appears at the top of the page you will see a red block indicating that the time falls in this area
+
+![image](https://github.com/dstorie80/BC_C5_Calendar/assets/149905416/d77a2a2f-3d4c-46bc-8e34-0fcb5a5db685)
+
+Anything after the current time will appear as green, showing that its a future time
+
+![image](https://github.com/dstorie80/BC_C5_Calendar/assets/149905416/fb76daa0-57f1-42a2-920b-e5518aa973a3)
+
+Data can also be entered into the text fields and saved in the local store
+
+![image](https://github.com/dstorie80/BC_C5_Calendar/assets/149905416/f2802b51-87d2-4a12-873f-8deafec27260)
+
+If the page is cosed, and then re-opened it will appear back on the calendar as the data is pulled from local store
+
+![image](https://github.com/dstorie80/BC_C5_Calendar/assets/149905416/72817f6b-748d-425f-8ed6-53df5d074af3)
 
 
 
 
-
-By clicking the submit button or hitting enter on the keyboard you will be presented with the 3-hour forecast.  Giving you the City name, Temprature, Wind Speed, and Humidity.
-
-
-
-As the more cities are selected, the more a library of past cities will be entered into the area below the search
-
-
-
-At any point the user can go back to one of the previously entered cities in the library, and select it to see if the weather has changed at all.
 
 
 
@@ -65,11 +78,6 @@ At any point the user can go back to one of the previously entered cities in the
 
 
 ## Credits
-
-The API used to get the data came from the project readme file:
-
-https://api.openweathermap.org/data/2.5/forecast
-
 
 
 ## License
