@@ -34,7 +34,7 @@ To pull the rep files:
 
 ## Usage
 
-To access the website you will need to follow this published link - [https://dstorie80.github.io/BC_C6_Forecast](https://dstorie80.github.io/BC_C5_Calendar/)/
+To access the website you will need to follow this published link - https://dstorie80.github.io/BC_C5_Calendar/
 
 To access the latest repo you will need to follow this github rep link - (git@github.com:dstorie80/BC_C5_Calendar.git)
 
